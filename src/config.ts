@@ -67,7 +67,7 @@ export interface TplinkSmarthomeConfigInput {
   inUseThreshold?: number;
   /**
    * Matching models are created in HomeKit as a Switch instead of an Outlet
-   * @defaultValue ['HS200', 'HS210']
+   * @defaultValue ['HS200', 'HS210','HS100']
    */
   switchModels?: Array<string>;
 
@@ -80,7 +80,7 @@ export interface TplinkSmarthomeConfigInput {
   discoveryPort?: number;
   /**
    * Broadcast Address. If discovery is not working tweak to match your subnet, eg: 192.168.0.255
-   * @defaultValue '255.255.255.255'
+   * @defaultValue '192.168.178.24'
    */
   broadcast?: string;
   /**
